@@ -10,6 +10,8 @@
 
 <body>
   <h1>Dim the LED with the slider below</h1>
+  <br>
+  <p>You can use left,right, up or down keys to adjust the brightness</p>
   <input id="control" type="range" min="0" max="200"step="1" oninput="getValue(this.value)" onchange="getValue(this.value)"></input>
 
   <script src="/socket.io/socket.io.js"></script>

@@ -13,10 +13,10 @@ board.on('ready', function() {
   console.log('board ready');
   //Create new led and controll it from pin 5 on your Arduino
   var led = new five.Led(5);
-  // From socket.io, on connection event logout that there is connection
+  // From socket.io, on connection event, console log that there is a connection
   io.sockets.on('connection', (socket) => {
     console.log('connection made');
-    //Get the value from the slider and console log it and pass it to brightness method
+    //Get the value from the slider(HTML) and console log it and pass it to brightness method
     socket.on('brightness', function(data) {
       console.log(data.value);
       led.brightness(data.value);
