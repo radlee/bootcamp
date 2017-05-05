@@ -2,7 +2,7 @@
 
 Controll the LED from the Browser using Express and Socket.io
 
-*(Please Note: You need to have node and npm installed in your machine)*  
+*(Please Note: You need to have __node__ and __npm__ installed in your machine)*  
 ## Required
 
 * Arduino
