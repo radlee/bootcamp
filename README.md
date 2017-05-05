@@ -30,5 +30,6 @@ For easy restarts you can `npm install -g nodemon` globally or locally with  `np
 
 * Add Buttons in the Browser to turn LED `on` and `off`
 * Make the potentiometer controll the slider in the HTML when adjusting the brightness from it
+* Display brightness values as you slide up and down on the Browser using handlebars
 
 If you want to collaborate in this repo go to [eXrobots](https://github.com/denvereezy/eXrobots.git) and clone
